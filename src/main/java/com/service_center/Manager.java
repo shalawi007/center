@@ -14,12 +14,19 @@ public class Manager {
     private String contact;
     private String password;
     
+    /**
+     * 
+     * @param ID
+     * @param Name
+     * @param tel
+     * @param Pass 
+     */
     //constructor
     public Manager(String ID, String Name, String tel, String Pass){
-        id = ID;
-        name = Name;
-        contact = tel;
-        password = Pass;
+        this.id = ID;
+        this.name = Name;
+        this.contact = tel;
+        this.password = Pass;
           
     }
     //getters
@@ -35,9 +42,9 @@ public class Manager {
     public String getPass(){
         return password;
     }
-   // public String checkfeedback(){
+    public void checkfeedback() {
+
         
-    //    return feedback;
-   // }
-   // public String 
+    }
+
 }
