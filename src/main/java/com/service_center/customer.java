@@ -9,9 +9,5 @@ package com.service_center;
  * @author shoal
  */
 public class customer {
-    private String Id;
-    private String name ;
-    private String contact;
-    private String password;
     
 }

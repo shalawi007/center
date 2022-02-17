@@ -14,24 +14,14 @@ public class Manager {
     private String contact;
     private String password;
     
-    /**
-     * Creates a new object for manager
-     * @param ID for manager unique
-     * @param Name name of the manager 
-     * @param tel phone number of the manager
-     * @param Pass password of the manager
-     */
-    
     //constructor
     public Manager(String ID, String Name, String tel, String Pass){
-        this.id = ID;
-        this.name = Name;
-        this.contact = tel;
-        this.password = Pass;
+        id = ID;
+        name = Name;
+        contact = tel;
+        password = Pass;
           
     }
-    
-    
     //getters
     public String getID(){
         return id ;
@@ -45,18 +35,9 @@ public class Manager {
     public String getPass(){
         return password;
     }
-    
-    public void checkfeedback(){
+   // public String checkfeedback(){
         
-       
-   }
-    
-   public void generateReport(){
-       
-   } 
-   //setters
-   
-   public void bookApp(){
-       
-   }
+    //    return feedback;
+   // }
+   // public String 
 }
